@@ -17,7 +17,7 @@ const Navigation = () => {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center gap-8">
             <h1 className="text-xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Campus Life Hub
+              Kaizen
             </h1>
             <div className="flex gap-1">
               <Link to="/">
