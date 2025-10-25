@@ -62,6 +62,16 @@ const Navigation = () => {
                 Feedback
               </Button>
             </Link>
+            <Link to="/attendence">
+              <Button
+                variant={isActive("/attendence") ? "default" : "ghost"}
+                size="sm"
+                className="gap-2"
+              >
+                <Calendar className="h-4 w-4" />
+                Attendence
+              </Button>
+            </Link>
           </div>
 
           {/* Sign Out */}

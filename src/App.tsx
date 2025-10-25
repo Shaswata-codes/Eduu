@@ -10,7 +10,7 @@ import Complaints from "./pages/Complaints";
 import Feedback from "./pages/Feedback";
 import Auth from "./pages/Auth";
 import NotFound from "./pages/NotFound";
-
+import Attendence from "./pages/Attendence";
 const queryClient = new QueryClient();
 
 const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
@@ -56,6 +56,9 @@ const App = () => (
                 </ProtectedRoute>
               }
             />
+            <Route 
+            path="/attendence"
+            element={<Attendence />}/>
             <Route
               path="/complaints"
               element={
