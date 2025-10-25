@@ -73,7 +73,7 @@ const Auth = () => {
       <Card className="w-full max-w-md shadow-lg">
         <CardHeader className="text-center">
           <CardTitle className="text-3xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-            Campus Life Hub
+            Kaizen
           </CardTitle>
           <CardDescription>Sign in to access your campus portal</CardDescription>
         </CardHeader>
